@@ -1,0 +1,262 @@
+body {
+  z-index: 0;
+  background-color: hsl(229, 57%, 11%);
+  color: white;
+  text-align: center;
+  font-weight: 400;
+  font-size: 14px;
+  font-family: 'Raleway', sans-serif;
+}
+
+span {
+  display: inline-block;
+}
+
+.logodiv {
+  z-index: 1;
+  text-align: left;
+  padding-left: 2rem;
+  display: inline-block;
+  position: absolute;
+  left: 18%;
+  bottom: 37%;
+  width: 18rem;
+  height: 11rem;
+  background-color: hsl(228, 56%, 26%);
+  border-radius: 0.5rem 5.5rem 0.5rem 0.5rem;
+}
+
+.logoinsidediv {
+  margin: 0.7rem;
+  margin-left: 0;
+  display: inline-block;
+  /*padding-top: 10px;*/
+  width: 2.5rem;
+  height: 2.5rem;
+  /*padding: 10px;*/
+  border-radius: 0.6rem;
+  background-color: hsl(229, 57%, 11%);
+}
+
+.fylo {
+  width: auto;
+  margin: auto;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.logo {
+  /*margin: auto 20px auto 10px;*/
+  /*position: absolute;
+  bottom: 60px;*/
+  margin: 0.6rem;
+  width: 1.4rem;
+  height: 1.1rem;
+}
+
+.status {
+  z-index: 1;
+  background-color: hsl(228, 56%, 26%);
+  display: inline-block;
+  position: absolute;
+  font-weight: 400;
+  font-size: 80%;
+  text-align: left;
+  right: 18%;
+  bottom: 37%;
+  width: 38%;
+  height: 20%;
+  border-radius: 0.5rem;
+  /*padding: 0;*/
+}
+
+.statusbar {
+  display: inline-block;
+  text-align: left;
+  height: 0.7rem;
+  width: 85%;
+  margin: 1px;
+  margin-left: 8%;
+  background-color: hsl(229, 57%, 11%);
+  border-radius: 0.5rem;
+  padding: 2px;
+}
+
+.statuslevel {
+  /*float: left;*/
+  display: inline-block;
+  height: 0.7rem;
+  width: 75%;
+  background: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+  border-radius: 0.5rem;
+}
+
+.circle {
+  width: 9px;
+  height: 9px;
+  background: white;
+  border-radius: 50%;
+  float: right;
+  margin: 1px;
+  margin-right: 2px;
+}
+
+.gb {
+  font-weight: 700;
+}
+
+.left {
+  display: inline-block;
+  text-align: left;
+  width: 60%;
+  /*margin: 2rem auto 0 2rem;*/
+}
+
+/*.right{
+  display: inline-block;
+  text-align: right;
+  width: 33%;
+}*/
+.rightbottom {
+  display: inline-block;
+  text-align: right;
+  width: 33%;
+}
+
+.span1 {
+  margin: 2rem auto 0.5rem 3rem;
+}
+
+.span3 {
+  margin: 0 auto 2rem 3rem;
+}
+
+.chat {
+  display: inline-block;
+  position: absolute;
+  bottom: 6.5rem;
+  right: 2rem;
+  height: 3.2rem;
+  width: 8rem;
+  background-color: white;
+  font-weight: 700;
+  font-size: 9px;
+  text-align: center;
+  color: hsl(229, 7%, 55%);
+  border-radius: 0.5rem 0.5rem 0 0.5rem;
+}
+
+.triangle {
+  position: absolute;
+  right: 2rem;
+  bottom: 5.5rem;
+  width: 0;
+  height: 0;
+  border-top: 17px solid white;
+  border-left: 17px solid transparent;
+}
+
+.span2 {
+  display: inline-block;
+  margin-left: 3px;
+  /*text-align: center;
+  width: auto;
+  font-size: 95%;
+  margin-top: 3px;
+  */
+}
+
+.oneeightfive {
+  display: inline-block;
+  color: black;
+  font-size: 28px;
+  margin-top: 5px;
+
+  /*text-align: left;
+  width: auto;
+  height: auto;
+  margin-left: 9px;
+  */
+}
+
+.background {
+    z-index: 0;
+    height: 50%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+.mobilebackground{
+  z-index: 0;
+  display: none;
+  width:auto;
+  height: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+
+@media screen and (max-width: 900px) {
+  .logodiv {
+    z-index: 1;
+    display: block;
+    position: absolute;
+    margin: auto;
+    width: 78%;
+    font-size: 80%;
+    top: 15%;
+    left: 3%;
+    right: 5%;
+  }
+
+  .status {
+    z-index: 1;
+    text-align: center;
+    display: block;
+    position: absolute;
+    margin: auto;
+    height: 11rem;
+    width: 85%;
+    font-size: 80%;
+    top: 90%;
+    left: 3%;
+    right: 5%;
+  }
+
+  .chat {
+    position: absolute;
+    top: 75%;
+    right: 25%;
+  }
+
+  .left {
+    margin: 0;
+  }
+
+  .span1 {
+    text-align: center;
+    margin-left: 0;
+    margin-right: auto;
+    width: auto;
+  }
+
+  .span3 {
+    margin: 5%;
+  }
+
+  .triangle {
+    position: absolute;
+    right: 25%;
+    top: 103%;
+  }
+  .mobilebackground{
+    display: block;
+
+  }
+  .background{
+    display:none;
+  }
+}
